@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+ body {
+    margin: 0;
+    color: #1D1D1D;
+    font-size: 1rem;
+    letter-spacing: 0.15px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    width: 100%;
+ }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    cursor: pointer;
+}
+
+.logo span {
+    color: #00b167;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    color: #1D1D1D;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 250px;
+    border: 1px solid #ddd;
+    
+}
+
+.search-box i {
+    color: #666;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.search-box input {
+    border: none;
+    background: transparent;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+}
+.btn {
+    background-color: #00C26D;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.testGörsel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testGörsel img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container-5 {
+    max-width: 1100px;
+    margin: auto;
+    padding-left: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+
+.test-list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.test-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 15px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.test-card img {
+    width: 100px;
+    width: 300px;
+    margin: auto;
+}
+.test-card .name-t {
+    font-size: 14px;
+    color: #878787;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    border-top: 1px solid #878787;
+    padding-top: 15px;
+}
+
+.course-info span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 1;
+    justify-content: center;
+}
+
+.egitimler {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.egitim-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.egitim-header img {
+    width: 50px;
+    height: auto;
+}
+
+.egitim-text {
+    flex: 1;
+}
+
+.egitim-text h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.egitim-text p {
+    margin: 5px 0;
+    color: gray;
+}
+
+.keşfet-btn {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.testler {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.test-kutu {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.test-kutu p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 18px;
+}
+footer {
+    background-color: #F6F6F6;
+    color: #333;
+    padding-top: 20px;
+}
+.bottom-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+.column ul li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background-color: #F6F6F6;
+}
+.social-icons span {
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.content-3 {
+    font-size: 1.125rem;
+    color: rgb(135, 135, 135);
+}

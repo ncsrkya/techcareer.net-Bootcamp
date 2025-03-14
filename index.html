@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCareer.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo"><img src="https://www.techcareer.net/assets/images/common/techcareer-logo.svg" alt=""></div>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Etkinlik, İş İlanı, Blog Ara">
+        </div>
+        <div class="nav-links">
+            <a href="#">Etkinlikler</a>
+            <a href="#">İş İlanları</a>
+            <a href="#">Eğitimler</a>
+            <a href="testler.html">Testler</a>
+            <a href="#">Komünite</a>
+        </div>
+        <a href="#" class=" first-btn btn">Giriş / Üye Ol</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1><span>Techcareer.net ile</span> teknoloji <br> kariyerinde hep ileriye</h1>
+            <p>En yenilikçi teknoloji etkinliklerine ve yarışmalarına, <br>heyecan verici iş fırsatlarına, eğitimlere ve yetenek <br>belirleme testlerine ulaşmak için aramıza katıl.</p>
+            <br>
+            <a href="#" class="btn">Hemen Üye Ol!</a>
+        </div>
+        <img src="images/cta-img.webp" alt="Teknoloji Görseli">
+    </section>
+
+    <div class="section-2">
+        <section class="etkinlikler">
+            <h2 class="title-2">Etkinliklerimiz</h2>
+            <div class="etkinlik-listesi">
+                <div class="etkinlik kart" data-title="Bootcamp">Bootcamp</div>
+                <div class="etkinlik kart" data-title="Hackathon">Hackathon</div>
+                <div class="etkinlik kart" data-title="Hiring Challenge">Hiring Challenge</div>
+            </div>
+            <p class="parg">Uzman eğitmenler ile farklı yazılım dillerinde eğitimler alıp, projeler üzerinde <br>çalışarak gerçek dünya tecrübesi edin, kariyerinde hızla yüksel.</p>
+            <a href="#" class="basvur-link">Hemen Başvur <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </section>
+    </div>
+
+    <h2 class="title-3">Başvuruya Açık Etkinlikler</h2>
+
+    <div class="container-3">
+        <div class="card">
+            <div class="card-header">
+                <img src="images/Dokuz_Eyluel_Ueniversitesi_Detech_25_54b99ffc58.webp" alt="Etkinlik Resmi">
+            </div>
+            <div class="card-body">
+                <h3>DETECH'25</h3>
+                <p>Teknoloji ile Dünyayı Değiştir!</p>
+                <div class="tags">
+                    <span class="tag">Hackathon</span>
+                    <span class="tag">İş Birliği</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p><strong>SON BAŞVURU:
+                    13.03.2025
+                </strong></p>
+                <button class="btn">Başvur</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="images/Swift_Craft_336x180_080190bd54.webp" alt="Etkinlik Resmi">
+            </div>
+            <div class="card-body">
+                <h3>SwiftCraft: iOS Development Bootcamp</h3>
+                <p>Ücretsiz öğren, mezun ol, sertifika sahibi ol!</p>
+                <div class="tags">
+                    <span class="tag">Bootcamp</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p><strong>SON BAŞVURU:
+                    26.03.2025
+                </strong></p>
+                <button class="btn">Başvur</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="images/exp.webp" alt="Etkinlik Resmi">
+            </div>
+            <div class="card-body">
+                <h3>Experian Young Talent Bootcamp</h3>
+                <p>Ücretsiz öğren, mezun ol, çalışmaya başla!</p>
+                <div class="tags">
+                    <span class="tag">Bootcamp</span>
+                </div>
+            </div>
+            <div class="card-footer">
+                <p><strong>SON BAŞVURU: 
+                    26.03.2025
+                </strong></p>
+                <button class="btn">Başvur</button>
+            </div>
+        </div>
+    </div>
+
+   <div style="background-color: #FAFAFA;">
+    <div class="container-4">
+        <h2 class="four">İş İlanlarımız</h2>
+        <p class="content-2">Teknoloji kariyerinde ilerlemek için doğru yerdesin. Teknoloji iş ilanlarını keşfetmeye hemen başla!</p>
+        <div class="job-listing" id="job-list">
+            <div class="job-card">
+                <img src="images/süratKargo.webp" alt="Sürat Kargo">
+                <span><strong>Yeni Platformlar Geliştirme Müdürü</strong> - Sürat Kargo (İstanbul, Hibrit)</span>
+            </div>
+            <div class="job-card">
+                <img src="images/medikal.webp" alt="Hasvet">
+                <span><strong>Dijital Pazarlama Uzmanı</strong> - Hasvet (Antalya, İş Yerinde)</span>
+            </div>
+            <div class="job-card">
+                <img src="images/beymen.webp" alt="Beymen Group">
+                <span><strong>Information Security Specialist</strong> - Beymen Group (İstanbul, İş Yerinde)</span>
+            </div>
+            <div class="job-card">
+                <img src="images/sony_logo_c95b66139f.webp" alt="Sony">
+                <span><strong>Blockchain Developer </strong> - Sony Belçika (Hibrit)</span>
+            </div>
+            <div class="job-card">
+                <img src="images/codewaystudios_logo_a7919c56e1.webp" alt="Codeway">
+                <span><strong>DevOps Engineer (Mid/Sr)</strong> - Codeway (İstanbul, Hibrit)</span>
+            </div>
+            <div class="job-card">
+                <img src="images/getir_logo_ca86d76757.webp" alt="Getir">
+                <span><strong>Technology Audit Executive</strong>  - Getir (İstanbul, Hibrit)</span>
+            </div>
+            <button class="show-more">Tümünü Gör</button>
+        </div>
+    </div>
+   </div>
+
+   <div class="container-5">
+    <h2 class="four">Eğitimlerimiz</h2>
+    <p class="content-2">Teknoloji sektörüne özel hazırlanan ücretsiz yazılım eğitimlerini takip et, tamamla ve video eğitimler sonunda alacağın sertifikan ile <br>özgeçmişini zenginleştir!</p>
+    <div class="course-list">
+        <div class="course-card">
+            <img src="images/git-github.webp" alt="Git ve GitHub Eğitimi">
+            <h3>Git ve GitHub Eğitimi</h3>
+            <p class="name-t">Ahmet Kaya</p>
+            <p class="t-name">Sadece bir kurs ile Git ve Github konusunda uzmanlaşabilir ve projelerinizi yönetebilen binlerce kişiden biri olabilirsiniz.</p>
+            <div class="tags">
+                <span class="tag">Github</span>
+                <span class="tag">BT ve Yazılım</span>
+                <span class="tag">Git</span>
+            </div>
+            <div class="course-info">
+                <span class="level"><i class="fas fa-signal"></i> Başlangıç</span>
+                <span class="duration"><i class="far fa-clock"></i> 9 Saat</span>
+                <span class="certificate"><i class="fas fa-check"></i> Var</span>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="images/mikroservis.webp" alt="Microservis Eğitimi">
+            <h3>Microservis Geliştirme</h3>
+            <p class="name-t">Hamit Mızrak</p>
+            <p class="t-name">Modern yazılımların ölçeklenebilir ve <br>esnek geliştirilmesini sağlayan mimari bir yaklaşımdır.</p>
+            <div class="tags">
+                <span class="tag">RESTful API</span>
+                <span class="tag">Spring Boot</span>
+                <span class="tag">API</span>
+            </div>
+            <div class="course-info">
+                <span class="level"><i class="fas fa-signal"></i> Başlangıç</span>
+                <span class="duration"><i class="far fa-clock"></i> 2 Saat</span>
+                <span class="certificate"><i class="fas fa-check"></i> Var</span>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="images/vps.webp" alt="VPS Eğitimi">
+            <h3>VPS (Sanal Özel Sunucu)</h3>
+            <p class="name-t">Hamit Mızrak</p>
+            <p class="t-name">Bir uygulamayı veya web sitesini çalıştırmak için gerekli olan tüm yazılımı ve verileri barındıran bir makinedir.</p>
+            <div class="tags">
+                <span class="tag">VPS</span>
+                <span class="tag">DevOps</span>
+                <span class="tag">Gitlab</span>
+            </div>
+            <div class="course-info">
+                <span class="level"><i class="fas fa-signal"></i> Orta</span>
+                <span class="duration"><i class="far fa-clock"></i> 4 Saat</span>
+                <span class="certificate"><i class="fas fa-check"></i> Var</span>
+            </div>
+        </div>
+    </div>
+    <div class="show-more-container">
+        <button class="show-more">Tümünü Gör</button>
+    </div>
+</div>
+
+<div class="container-5">
+    <h2 class="four">Testlerimiz</h2>
+    <p class="content-2">Teknoloji sektörüne özel hazırlanan ücretsiz testler ile teknik yetkinliklerini anında ölç, aldığın puanları özgeçmişine ekle ve bir adım öne çık!</p>
+    <div class="test-list">
+        <div class="test-card">
+            <img src="images/devops.webp" alt="DevOps">
+            <h3>DevOps Teknik Test (Başlangıç Seviye)</h3>
+            <p class="name-t">Yazılım geliştirme endüstrisinde metodoloji olan DevOps seviyeni ölçmek için hemen teste başla.</p>
+            <div class="course-info">
+                <span><i class="fas fa-signal"></i> Başlangıç</span>
+                <span><i class="far fa-clock"></i> 8 Dakika</span>
+                <span><i class="fas fa-check"></i> 8 Soru</span>
+            </div>
+        </div>
+        <div class="test-card">
+            <img src="images/jacva.webp" alt="Java">
+            <h3>Java Teknik Test (Başlangıç Seviye)</h3>
+            <p class="name-t">Java framework'ünde programlama bilgini ölçmek istiyorsan, doğru yerdesin. Hemen teste başla!</p>
+            <div class="course-info">
+                <span><i class="fas fa-signal"></i>Başlangıç</span>
+                <span><i class="far fa-clock"></i> 12 Dakika</span>
+                <span><i class="fas fa-check"></i> 16 Soru</span>
+            </div>
+        </div>
+        <div class="test-card">
+            <img src="images/net.webp" alt=".NET">
+            <h3>.NET Teknik Test (Başlangıç Seviye)</h3>
+            <p class="name-t">.Net geliştiriciler için hazırlanan bu teknik test ile yetkinliğini ölçmeye hemen başla.</p>
+            <div class="course-info">
+                <span><i class="fas fa-signal"></i> Başlangıç</span>
+                <span><i class="far fa-clock"></i> 10 Dakika</span>
+                <span><i class="fas fa-check"></i> 9 Soru</span>
+            </div>
+        </div>
+    </div>
+    <button class="show-more">Tümünü Gör</button>
+</div>
+
+<div class="container-6">
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2F6mayis_hiringday_1152x412_f909ba44fd%2F6mayis_hiringday_1152x412_f909ba44fd.png&w=3840&q=100" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Ftestler_banner_web_tr_a410e4b8f2%2Ftestler_banner_web_tr_a410e4b8f2.png&w=3840&q=100" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Ftechreport_banner_web_tr_45edaeb9d5%2Ftechreport_banner_web_tr_45edaeb9d5.png&w=3840&q=100" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2Fsoezluek_banner_web_tr_8b33b51f19%2Fsoezluek_banner_web_tr_8b33b51f19.png&w=3840&q=100" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2FGS_Ue_banner_web_tr_cfe0aff5a1%2FGS_Ue_banner_web_tr_cfe0aff5a1.png&w=3840&q=100" alt="Slide 1">
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+</div>
+
+<div class="container-5">
+    <div class="test-list">
+        <div class="test-card">
+            <h2>Blog</h2>
+            <p class="content-2">Teknoloji haberlerine dair son gelişmeleri ve yenilikleri takip edebileceğin teknoloji bloğu sayfamızı hemen ziyaret edebilirsin.</p>
+            <button class="showmore">Hemen Oku</button>
+        </div>
+        <div class="test-card">
+            <h2>Teknik Sözlük</h2>
+            <p class="content-2">A’dan Z’ye tüm teknoloji terimlerinin tanımlarını senin için hazırladığımız teknoloji sözlüğünde bulabilirsin.</p>
+            <button class="showmore">Hemen Keşfet</button>
+        </div>
+        <div class="test-card">
+            <h2>Kariyer Rehberi</h2>
+            <p class="content-2">Teknoloji pozisyonlarının ne iş yaptığını, öğrenme yolculuklarını ve tüm bilgilerini incelemeye buradan başlayabilirsin.</p>
+            <button class="showmore">Hemen İncele</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-7">
+    <div class="logo-container">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F31.png&w=384&q=100" alt="ITG">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F11.png&w=384&q=100" alt="iLab">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F6.png&w=384&q=100" alt="cimri">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F3.png&w=384&q=100" alt="MNM">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F10.png&w=384&q=100" alt="etsTur">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F2.png&w=384&q=100" alt="HYPER">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F9.png&w=384&q=100" alt="endeksa">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F30.png&w=384&q=100" alt="Otokoc">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F4.png&w=384&q=100" alt="Real Solutions">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F8.png&w=384&q=100" alt="kariyer.net">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F6.png&w=384&q=100" alt="FIRAT">
+     <img src="https://www.techcareer.net/_next/image?url=%2Fassets%2Fimages%2Fhomepage-references%2F34.png&w=384&q=100" alt="ITG">
+    </div>
+</div>
+
+<footer>
+    <div class="top-footer">
+        <h2>İşveren misin?</h2>
+        <p>Hemen bizimle iletişime geç, aradığın yazılımcıları hızlıca bulalım.</p>
+        <div class="email-box">
+            <input type="email" placeholder="E-mail">
+            <button>Gönder</button>
+        </div>
+    </div>
+    <div class="bottom-footer">
+        <div class="column">
+            <h3 class="content-3">TECHCAREER</h3>
+            <ul>
+                <li>Hakkımızda</li>
+                <li>Etkinlikler</li>
+                <li>Şirketler İçin</li>
+                <li>Eğitmen Ol</li>
+                <li>İş Birliği</li>
+                <li>Referanslar</li>
+                <li>İletişim</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3 class="content-3">BAŞVUR</h3>
+            <ul>
+                <li>Bootcamp</li>
+                <li>Hackathon</li>
+                <li>Hiring Challenge</li>
+                <li>İş İlanları</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3 class="content-3">SENİN İÇİN</h3>
+            <ul>
+                <li>Komünite</li>
+                <li>TDC</li>
+                <li>Blog</li>
+                <li>Podcast</li>
+                <li>Kariyer Rehberi</li>
+                <li>Teknik Sözlük</li>
+                <li>Mülakat Soruları</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3 class="content-3">VERİ POLİTİKAMIZ</h3>
+            <ul>
+                <li>Aydınlatma Metni</li>
+                <li>Hizmet Sözleşmesi</li>
+                <li>Açık Rıza Metni</li>
+                <li>Çerez Politikası</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p><span><img src="https://www.techcareer.net/assets/images/common/techcareer-logo.svg" alt=""></span>   Türkiye’nin teknoloji kariyeri platformu</p>
+        <div class="social-icons">
+            <span><i class="fa-brands fa-linkedin-in"></i></span>
+            <span><i class="fa-brands fa-x-twitter"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-youtube"></i></span>
+            <span><i class="fa-brands fa-facebook"></i></span>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll(".slide");
+    const slider = document.querySelector(".slider");
+
+    function showSlide(index) {
+        if (index >= slides.length) {
+            currentIndex = 0;
+        } else if (index < 0) {
+            currentIndex = slides.length - 1;
+        } else {
+            currentIndex = index;
+        }
+        slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    function nextSlide() {
+        showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentIndex - 1);
+    }
+
+    setInterval(nextSlide, 5000); // Otomatik geçiş 5 saniye
+</script>
+<script>
+    function scrollLeft() {
+        document.getElementById("carousel").scrollBy({ left: -320, behavior: 'smooth' });
+    }
+    function scrollRight() {
+        document.getElementById("carousel").scrollBy({ left: 320, behavior: 'smooth' });
+    }
+</script>
+
+
+
+
+
+
+    
+</body>
+</html>
