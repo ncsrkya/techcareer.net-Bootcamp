@@ -630,7 +630,7 @@ h2 {
 .container-5 {
     max-width: 1100px;
     margin: auto;
-    padding-left: 15px;
+    padding: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
